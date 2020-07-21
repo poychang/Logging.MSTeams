@@ -1,0 +1,15 @@
+language: csharp
+mono: none
+os: linux
+dist: trusty
+dotnet: 2.0.0
+script:
+    - dotnet build -c Release
+    - dotnet pack -c Release
+deploy:
+    - provider: script
+      skip_cleanup: true
+      script: dotnet nuget push Logging.MSTeams/bin/Release/Logging.MSTeams.*.nupkg --api-key $NUGET_API_KEY --source nuget.org
+      on:
+          tags: true
+          branch: master
