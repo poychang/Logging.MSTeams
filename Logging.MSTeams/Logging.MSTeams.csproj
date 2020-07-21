@@ -1,13 +1,12 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <Authors>Poy Chang</Authors>
         <PackageProjectUrl>https://github.com/poychang/Logging.MSTeams</PackageProjectUrl>
         <Product>Logging.MSTeams</Product>
-        <Description>
-            Logging.MSTeams provides easy to log information that users can trace system with Microsoft Teams webhook channel.
-            This package help developer/operator to monitor thier own system easier.
+        <Description>Logging.MSTeams provides easy to log information that users can trace system with Microsoft Teams webhook channel.
+This package help developer/operator to monitor thier own system easier.
         </Description>
         <Version>1.0.0</Version>
         <PublishRepositoryUrl>true</PublishRepositoryUrl>

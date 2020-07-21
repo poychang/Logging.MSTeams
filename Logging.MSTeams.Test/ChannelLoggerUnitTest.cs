@@ -12,7 +12,7 @@ namespace Logging.MSTeams.Test
         [TestInitialize]
         public void Initialize()
         {
-            teamsWebhook = "https://outlook.office.com/webhook/70ed5294-ddfb-4eab-9be5-6a8c430661e2@f43a2d89-bcd5-425f-981c-f7231bcd4467/IncomingWebhook/7f6df48fc07849fc917f557f719b569d/3098eded-4c4c-498b-8619-90a141fc88c7";
+            teamsWebhook = "https://outlook.office.com/webhook/YOUR_TEAMS_WEBHOOK_URL";
             loggerFactory = new LoggerFactory();
         }
 
